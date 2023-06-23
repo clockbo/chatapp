@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chat app</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    <title>Chat App</title>
 </head>
 <body>
     <div id="message-container">
         <form id="send-container">
-            <input type="text" name="" id="input-message">
-            <button type="submit" id="send-button">send</button>
+            <input type="text" name="" id="message-input">
+            <button type="submit" id="send-button">Send</button>
         </form>
     </div>
 </body>
