@@ -1,0 +1,28 @@
+    #message-container {
+    width: 80%;
+    height: 100px;
+    margin: 0px auto;
+  }
+  
+  #message-container div {
+    background-color: rgb(140, 138, 138);
+    padding: 5px;
+  }
+  
+  #message-container div:nth-child(2n) {
+    background-color: aliceblue;
+  }
+  
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color: white;
+    width: 80%;
+    display: flex;
+  }
+  
+  #message-input {
+    flex-grow: 1;
+  }
+  
